@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/surpresa.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" href="./img/download.jfif" type="icon/jfif">
+  <title>Surpresa</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <img src="./img/pokemon_logo.png" class="pokemon__logo" alt="logo pokemon" />
+    </div>
+  </header>
+  <div class="pokedex">
+    <select id="pokemon1">
+      <option value="">Selecione um Pokémon</option>
+    </select>
+    <img id="pokemon1I" src="" alt="" class="pokemon-image">
+    <select id="pokemon2">
+      <option class="a1" value="">Selecione outro Pokémon</option>
+    </select>
+    <img id="pokemon2I" src="" alt="" class="pokemon-image">
+    <button class=button1 onclick="comparar()">Comparar</button>
+    <div id="resultado"></div>
+  </div>
+  <div class="footer">
+    <footer>
+      <p>&copy; Todos os direitos reservados</p>
+    </footer>
+  </div>
+  <script src="./js/surpresa.js"></script>
+</body>
+
+</html>

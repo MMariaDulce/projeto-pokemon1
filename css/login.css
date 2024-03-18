@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    padding-top: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.container{
+    display: flex;
+    align-items: center;
+    gap: 3.5rem;
+
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 5rem;
+    background-color:aliceblue;
+    border-radius: 8px;
+}
+
+button.btn{
+    background-color: #2615EB;
+    color: aliceblue;
+    border-radius: 100px;
+    padding: 5px;
+}
+button.btn:hover{
+    background-color: #1547eb;
+    cursor: pointer;
+}
+#login{
+    padding: 9px;
+}
+#senha{
+    padding: 9px;
+}

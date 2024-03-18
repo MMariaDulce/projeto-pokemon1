@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+section div p{
+    float: right;
+    float: left;
+    justify-content: space-between;
+}
+header{
+    width: 100%;
+    padding: 28px 8px;
+}
+.logo{
+    width: 250px;
+}
+
+#navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0.1rem #ccc
+}
+
+#navbar{
+    font-size: 24px;
+    color: #2615EB;
+}
+#nav-list{
+    display: flex;
+    list-style: none;
+    gap: 48px;
+    
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.nav-item.active a{
+    color: black;
+    border-bottom: 3px solid #2615EB;
+}
+
+.menu .header{
+    display: inline;
+    width: 28px;
+    height: 3px;
+    border-radius: 3px;
+    background: black;
+}
+
+.button{
+    border-bottom: 3px solid #2615EB;
+}
+
+.titulo{
+    display: block;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.fotoinicial{
+    padding-bottom: 50px;
+}
+.p{
+   font-family: Arial, Helvetica, sans-serif;
+   display: ruby;
+   padding: 1rem;
+   justify-content: center;
+   align-items: center;
+   filter: drop-shadow(15px 15px 15px hsl(76deg 0% 0% /0.5));
+   flex-direction: column;
+
+}
+.id1{
+
+display: ruby;
+justify-content: center;
+align-items: center;
+}
+
+.texto{
+    background: linear-gradient(45deg, #ffeb3b, #ff9800);
+    width: 1000px;
+    padding: 0px 50px;
+    border-radius: 20px;
+    color: var(--white-900);
+}
